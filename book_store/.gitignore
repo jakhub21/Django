@@ -1,0 +1,33 @@
+# Ignore the SQLite database file
+db.sqlite3
+
+# Ignore the environment folder (optional, if using virtualenv)
+env/
+venv/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore migration files (optional, if you want to exclude them)
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.out
+*.snap
+*.vscode/
+*.run
+logs/
+static/
+dump.sql
+build/
+dist/
+test/
+cookiecutter/
+wsgi/
+cli.py
