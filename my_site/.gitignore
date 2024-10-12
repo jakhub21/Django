@@ -1,0 +1,60 @@
+# Wykluczenie pliku bazy danych SQLite
+db.sqlite3
+*.sqlite3
+
+# Wykluczenie plików migracji (opcjonalnie)
+**/migrations/*.py
+**/migrations/*.pyc
+# lub tylko pliki pyc (jeśli chcemy śledzić migracje):
+# **/migrations/*.pyc
+
+# Wykluczenie środowiska wirtualnego
+env/
+venv/
+ENV/
+.venv/
+
+# Wykluczenie plików tymczasowych, dzienników i cache
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.swn
+*.~undo-tree~
+*.out
+*.bak
+*.backup
+*.tmp
+
+# Wykluczenie folderu pycache
+__pycache__/
+
+# Wykluczenie plików konfiguracyjnych IDE i edytorów (VSCode, PyCharm)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Wykluczenie statycznych plików zebranych przez Django
+staticfiles/
+static/
+
+# Wykluczenie zebranych plików multimedialnych (jeśli takie istnieją)
+media/
+
+# Wykluczenie plików zebranych przez kompilator SASS/SCSS
+*.sass-cache/
+*.scss-cache/
+
+# Wykluczenie plików node_modules (jeśli używasz npm lub yarn)
+node_modules/
+
+# Wykluczenie plików zebranych przez kompilator Webpack lub inne narzędzia front-endowe
+dist/
+build/
+
+# Wykluczenie plików instalacyjnych systemu operacyjnego (np. macOS)
+.DS_Store
